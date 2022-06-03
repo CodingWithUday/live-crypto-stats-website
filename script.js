@@ -1,4 +1,13 @@
-const bitcoinApi = 'https://api.coincap.io/v2/assets/bitcoin';
+const queryString = window.location.search;
+
+const urlParams = new URLSearchParams(queryString);
+
+const crypName = urlParams.get('crypto')
+console.log(crypName);
+
+
+
+const bitcoinApi = 'https://api.coincap.io/v2/assets/'+crypName;
 
 
 async function getBitcoin() {

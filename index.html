@@ -1,39 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imgs/btc.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Bitcoin Live Stats!</title>
+    <meta name="description" content="Get Live Stats Of Any Crypto! By Coding With Uday">
+	<meta property="og:title" content="Live Crypto Stats!">
+	<meta property="og:site_name" content="Live Crypto Stats!">
+	<meta property="og:description" content="Get Live Stats Of Any Crypto! By Coding With Uday">
+	<meta property="og:image" content="imgs/btc.png">
+	<meta property="og:url" content="https://youtube.com/c/codingwithuday">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="redirect-app.css">
+    <title>Live Crypto Stats!</title>
 </head>
 <body>
-    <div class="stats">
-        <h1 class="stat-title" style="color: white;"><img src="imgs/btc.png" alt="btc-logo" width="25" height="25"> LIVE BITCOIN STATS!</h1>
-        <h4 style="color: white; font-size: x-large; font-weight: bolder;">updates every 1 milliseconds!</h4>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Crypto Name: <span id="name"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Price (USD): $<span id="price"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Symbol: <span id="symbol"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Rank: <span id="rank"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Supply: <span id="supply"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Max Supply: <span id="maxSupply"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Market Cap (usd): $<span id="marketCap"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Volume 24hr (usd): $<span id="volumeUsd24Hr"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Change Percent 24hr: <span id="changePercent24Hr"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Vwap 24hr: <span id="vwap24Hr"></span></h3>
-        <h3 style="color: white; font-size: x-large; font-weight: bolder;">Explorer: <span id="explorer"></span></h3>
-    </div>
+    <label id="labal">What Crypto You Want Live Data Of?</label><br>
+    <input type="text" placeholder="Crypto Name" id="cryptoName" class="cryptoName"><br>
+    <button type="button" id="cryptoBtn" class="cryptoBtn">Get Data!</button>
+
+    <script src="redirect-app.js"></script>
     
-
-
-   
-
-    <h1 style="color: white;">Other Crypto's:</h1>
-    <h2 style="color: white;">Comming Soooooon!</h2>
-    <div class="footer">
-        <h1 style="color: white;">Subscribe <a href="http://youtube.com/c/codingwithuday" target="_"><button class="sub-btn">CODING WITH UDAY</button></a></h1>
-    </div>
-    <script src="script.js"></script>
 </body>
 </html>

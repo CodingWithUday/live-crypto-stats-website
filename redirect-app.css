@@ -1,0 +1,36 @@
+*{
+    font-family: fantasy;
+
+}
+
+
+#labal{
+    font-size: x-large;
+}
+
+.cryptoName{
+    border-width: 20px;
+    border-color: rgb(red, green, blue);
+    padding: 10px;
+    border-radius: 30px;
+    transition: 500ms;
+}
+
+.cryptoName:hover{
+    border-color: red;
+}
+
+
+.cryptoBtn{
+    padding: 15px;
+    background-color: brown;
+    color: wheat;
+    border-radius: 25px;
+    transition: 400ms;
+
+}
+
+.cryptoBtn:hover{
+    background-color: red;
+
+}
