@@ -1,5 +1,7 @@
 # live-crypto-stats-website
-just made for fun (note: css not added if u ever wish to add css make a pull request pwease!)
+just made for fun (note: NOW WITH CSS!!!!!)
+
+
 
 
 
