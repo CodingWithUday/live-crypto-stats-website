@@ -1,4 +1,4 @@
 document.getElementById("cryptoBtn").onclick = function(){
     var cryppNme = document.getElementById("cryptoName").value;
-    window.location.href = "/crypto.html?crypto="+cryppNme;
+    window.location.href = "https://codingwithuday.github.io/live-crypto-stats-website/crypto.html?crypto="+cryppNme;
 }
