@@ -3,7 +3,6 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
 const crypName = urlParams.get('crypto')
-console.log(crypName);
 
 
 

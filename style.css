@@ -19,15 +19,15 @@ span:hover{
 
 
 .sub-btn{
-    color: green;
+    color: white;
     font-weight: bold;
-    background-color: white;
+    background-color: red;
     padding: 25px;
     border-radius: 50px;
     transition: 300ms;
 }
 
 .sub-btn:hover{
-    color: white;
-    background-color: green;
+    color: red;
+    background-color: white;
 }
